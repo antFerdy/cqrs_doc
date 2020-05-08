@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2020-05-08T18:14:52.632Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="ZY55pkyn7bb8vdb2ANDS" version="13.0.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-08T18:32:56.704Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="DjL6KQDuz3WhLqvSPqHN" version="13.0.9" type="github">
   <diagram id="VlpD_25U13q7q78wCvk9" name="Page-1">
-    <mxGraphModel dx="2800" dy="1091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1973" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LOavYstI44WjWDfzI2Ox-1" value="Write services" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LOavYstI44WjWDfzI2Ox-2" value="Write DB" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="524" y="700" width="60" height="80" as="geometry" />
+        <mxCell id="LOavYstI44WjWDfzI2Ox-2" value="Write DB (NoSQL)" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="740" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LOavYstI44WjWDfzI2Ox-3" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="LOavYstI44WjWDfzI2Ox-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -29,7 +29,7 @@
           <mxGeometry x="190" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LOavYstI44WjWDfzI2Ox-6" value="Read DB (OLAP)" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="700" width="60" height="80" as="geometry" />
+          <mxGeometry x="220" y="740" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LOavYstI44WjWDfzI2Ox-7" value="Message queue" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="630" width="120" height="60" as="geometry" />
@@ -66,7 +66,7 @@
         </mxCell>
         <mxCell id="TCs1OWJkmc1U1B6i_L3Y-1" value="" style="endArrow=none;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-10" y="840" as="sourcePoint" />
+            <mxPoint x="10" y="840" as="sourcePoint" />
             <mxPoint x="820" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -76,8 +76,17 @@
         <mxCell id="TCs1OWJkmc1U1B6i_L3Y-3" value="GitLab (CI/CD)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="335" y="880" width="145" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="TCs1OWJkmc1U1B6i_L3Y-5" value="Prometheus + Grafana (Metrics aggregation and visualisation)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TCs1OWJkmc1U1B6i_L3Y-5" value="Prometheus + Grafana (Metrics aggregation and visualization)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="880" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TCs1OWJkmc1U1B6i_L3Y-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="330" width="795" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="TCs1OWJkmc1U1B6i_L3Y-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="490" width="290" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="TCs1OWJkmc1U1B6i_L3Y-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="490" width="270" height="340" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
